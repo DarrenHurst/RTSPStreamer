@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB6BDBED295E3FEA00353306 /* RTSPStreamerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BDBEC295E3FEA00353306 /* RTSPStreamerApp.swift */; };
+		EB6BDBEF295E3FEA00353306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BDBEE295E3FEA00353306 /* ContentView.swift */; };
+		EB6BDBF1295E3FEA00353306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6BDBF0295E3FEA00353306 /* Assets.xcassets */; };
+		EB6BDBF4295E3FEA00353306 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6BDBF3295E3FEA00353306 /* Preview Assets.xcassets */; };
+		EB6BDBFE295E3FEA00353306 /* RTSPStreamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BDBFD295E3FEA00353306 /* RTSPStreamerTests.swift */; };
+		EB6BDC08295E3FEA00353306 /* RTSPStreamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BDC07295E3FEA00353306 /* RTSPStreamerUITests.swift */; };
+		EB6BDC0A295E3FEA00353306 /* RTSPStreamerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BDC09295E3FEA00353306 /* RTSPStreamerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB6BDBFA295E3FEA00353306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6BDBE1295E3FEA00353306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6BDBE8295E3FEA00353306;
+			remoteInfo = RTSPStreamer;
+		};
+		EB6BDC04295E3FEA00353306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6BDBE1295E3FEA00353306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6BDBE8295E3FEA00353306;
+			remoteInfo = RTSPStreamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB6BDBE9295E3FEA00353306 /* RTSPStreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTSPStreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6BDBEC295E3FEA00353306 /* RTSPStreamerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTSPStreamerApp.swift; sourceTree = "<group>"; };
+		EB6BDBEE295E3FEA00353306 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB6BDBF0295E3FEA00353306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB6BDBF3295E3FEA00353306 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB6BDBF9295E3FEA00353306 /* RTSPStreamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTSPStreamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6BDBFD295E3FEA00353306 /* RTSPStreamerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTSPStreamerTests.swift; sourceTree = "<group>"; };
+		EB6BDC03295E3FEA00353306 /* RTSPStreamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTSPStreamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6BDC07295E3FEA00353306 /* RTSPStreamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTSPStreamerUITests.swift; sourceTree = "<group>"; };
+		EB6BDC09295E3FEA00353306 /* RTSPStreamerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTSPStreamerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6BDBE6295E3FEA00353306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BDBF6295E3FEA00353306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BDC00295E3FEA00353306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6BDBE0295E3FEA00353306 = {
+			isa = PBXGroup;
+			children = (
+				EB6BDBEB295E3FEA00353306 /* RTSPStreamer */,
+				EB6BDBFC295E3FEA00353306 /* RTSPStreamerTests */,
+				EB6BDC06295E3FEA00353306 /* RTSPStreamerUITests */,
+				EB6BDBEA295E3FEA00353306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6BDBEA295E3FEA00353306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BDBE9295E3FEA00353306 /* RTSPStreamer.app */,
+				EB6BDBF9295E3FEA00353306 /* RTSPStreamerTests.xctest */,
+				EB6BDC03295E3FEA00353306 /* RTSPStreamerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6BDBEB295E3FEA00353306 /* RTSPStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BDBEC295E3FEA00353306 /* RTSPStreamerApp.swift */,
+				EB6BDBEE295E3FEA00353306 /* ContentView.swift */,
+				EB6BDBF0295E3FEA00353306 /* Assets.xcassets */,
+				EB6BDBF2295E3FEA00353306 /* Preview Content */,
+			);
+			path = RTSPStreamer;
+			sourceTree = "<group>";
+		};
+		EB6BDBF2295E3FEA00353306 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BDBF3295E3FEA00353306 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB6BDBFC295E3FEA00353306 /* RTSPStreamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BDBFD295E3FEA00353306 /* RTSPStreamerTests.swift */,
+			);
+			path = RTSPStreamerTests;
+			sourceTree = "<group>";
+		};
+		EB6BDC06295E3FEA00353306 /* RTSPStreamerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BDC07295E3FEA00353306 /* RTSPStreamerUITests.swift */,
+				EB6BDC09295E3FEA00353306 /* RTSPStreamerUITestsLaunchTests.swift */,
+			);
+			path = RTSPStreamerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6BDBE8295E3FEA00353306 /* RTSPStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6BDC0D295E3FEA00353306 /* Build configuration list for PBXNativeTarget "RTSPStreamer" */;
+			buildPhases = (
+				EB6BDBE5295E3FEA00353306 /* Sources */,
+				EB6BDBE6295E3FEA00353306 /* Frameworks */,
+				EB6BDBE7295E3FEA00353306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTSPStreamer;
+			productName = RTSPStreamer;
+			productReference = EB6BDBE9295E3FEA00353306 /* RTSPStreamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB6BDBF8295E3FEA00353306 /* RTSPStreamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6BDC10295E3FEA00353306 /* Build configuration list for PBXNativeTarget "RTSPStreamerTests" */;
+			buildPhases = (
+				EB6BDBF5295E3FEA00353306 /* Sources */,
+				EB6BDBF6295E3FEA00353306 /* Frameworks */,
+				EB6BDBF7295E3FEA00353306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6BDBFB295E3FEA00353306 /* PBXTargetDependency */,
+			);
+			name = RTSPStreamerTests;
+			productName = RTSPStreamerTests;
+			productReference = EB6BDBF9295E3FEA00353306 /* RTSPStreamerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB6BDC02295E3FEA00353306 /* RTSPStreamerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6BDC13295E3FEA00353306 /* Build configuration list for PBXNativeTarget "RTSPStreamerUITests" */;
+			buildPhases = (
+				EB6BDBFF295E3FEA00353306 /* Sources */,
+				EB6BDC00295E3FEA00353306 /* Frameworks */,
+				EB6BDC01295E3FEA00353306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6BDC05295E3FEA00353306 /* PBXTargetDependency */,
+			);
+			name = RTSPStreamerUITests;
+			productName = RTSPStreamerUITests;
+			productReference = EB6BDC03295E3FEA00353306 /* RTSPStreamerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6BDBE1295E3FEA00353306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EB6BDBE8295E3FEA00353306 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					EB6BDBF8295E3FEA00353306 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EB6BDBE8295E3FEA00353306;
+					};
+					EB6BDC02295E3FEA00353306 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EB6BDBE8295E3FEA00353306;
+					};
+				};
+			};
+			buildConfigurationList = EB6BDBE4295E3FEA00353306 /* Build configuration list for PBXProject "RTSPStreamer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6BDBE0295E3FEA00353306;
+			productRefGroup = EB6BDBEA295E3FEA00353306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6BDBE8295E3FEA00353306 /* RTSPStreamer */,
+				EB6BDBF8295E3FEA00353306 /* RTSPStreamerTests */,
+				EB6BDC02295E3FEA00353306 /* RTSPStreamerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6BDBE7295E3FEA00353306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6BDBF4295E3FEA00353306 /* Preview Assets.xcassets in Resources */,
+				EB6BDBF1295E3FEA00353306 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BDBF7295E3FEA00353306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BDC01295E3FEA00353306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6BDBE5295E3FEA00353306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6BDBEF295E3FEA00353306 /* ContentView.swift in Sources */,
+				EB6BDBED295E3FEA00353306 /* RTSPStreamerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BDBF5295E3FEA00353306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6BDBFE295E3FEA00353306 /* RTSPStreamerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BDBFF295E3FEA00353306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6BDC0A295E3FEA00353306 /* RTSPStreamerUITestsLaunchTests.swift in Sources */,
+				EB6BDC08295E3FEA00353306 /* RTSPStreamerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB6BDBFB295E3FEA00353306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6BDBE8295E3FEA00353306 /* RTSPStreamer */;
+			targetProxy = EB6BDBFA295E3FEA00353306 /* PBXContainerItemProxy */;
+		};
+		EB6BDC05295E3FEA00353306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6BDBE8295E3FEA00353306 /* RTSPStreamer */;
+			targetProxy = EB6BDC04295E3FEA00353306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB6BDC0B295E3FEA00353306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6BDC0C295E3FEA00353306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6BDC0E295E3FEA00353306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RTSPStreamer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darrenhurst.RTSPStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB6BDC0F295E3FEA00353306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RTSPStreamer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darrenhurst.RTSPStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB6BDC11295E3FEA00353306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darrenhurst.RTSPStreamerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTSPStreamer.app/RTSPStreamer";
+			};
+			name = Debug;
+		};
+		EB6BDC12295E3FEA00353306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darrenhurst.RTSPStreamerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTSPStreamer.app/RTSPStreamer";
+			};
+			name = Release;
+		};
+		EB6BDC14295E3FEA00353306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darrenhurst.RTSPStreamerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RTSPStreamer;
+			};
+			name = Debug;
+		};
+		EB6BDC15295E3FEA00353306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darrenhurst.RTSPStreamerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RTSPStreamer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6BDBE4295E3FEA00353306 /* Build configuration list for PBXProject "RTSPStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6BDC0B295E3FEA00353306 /* Debug */,
+				EB6BDC0C295E3FEA00353306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6BDC0D295E3FEA00353306 /* Build configuration list for PBXNativeTarget "RTSPStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6BDC0E295E3FEA00353306 /* Debug */,
+				EB6BDC0F295E3FEA00353306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6BDC10295E3FEA00353306 /* Build configuration list for PBXNativeTarget "RTSPStreamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6BDC11295E3FEA00353306 /* Debug */,
+				EB6BDC12295E3FEA00353306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6BDC13295E3FEA00353306 /* Build configuration list for PBXNativeTarget "RTSPStreamerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6BDC14295E3FEA00353306 /* Debug */,
+				EB6BDC15295E3FEA00353306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6BDBE1295E3FEA00353306 /* Project object */;
+}
