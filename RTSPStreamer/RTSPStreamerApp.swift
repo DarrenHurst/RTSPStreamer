@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+@available(iOS 16.0, *)
 struct RTSPStreamerApp: App {
     var body: some Scene {
         WindowGroup {
